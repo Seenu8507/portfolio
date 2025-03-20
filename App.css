@@ -1,0 +1,339 @@
+body {
+  margin: 0;
+  
+  
+  min-width: fit-content;
+  min-height: fit-content;
+  background-color: rgb(255, 255, 255);
+}
+
+#root {
+  max-width:100%;
+  margin: 0 auto;
+  background-color: rgb(0, 0, 0); /* Change to a visible color */
+  display: flex;
+  height: 170px;
+  position: sticky;
+  flex-direction: row;
+
+  
+}
+.div1 {
+  width: 100%; 
+  display: flex;
+  text-align: left;
+  position: absolute;
+  margin: 0;
+  padding: 10px; 
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  align-items: end;
+  justify-items: end;
+  text-decoration: none;
+  flex-direction: row;
+  margin-top: 30px;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+.nav {
+  display: flex;
+  position: relative;
+  justify-content: center; /* Center items */
+  margin-left: 500px;
+  
+  gap: 40px; /* Reduce gap for better spacing */
+  text-decoration: none;
+  text-align: center;
+  flex-direction: row; /* Ensure row alignment */
+ 
+  justify-content: end;
+  align-items: end;
+  
+}
+
+.nav a {
+  margin-left: 100px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  position:absol;
+  padding-right: 30px;
+  justify-content: end;
+  align-items: end;
+}
+.div2{
+  width: 470px;
+  height: 460px;
+  background-color:aliceblue ;
+  position:absolute;
+  top: 200px;
+  left: 100px;
+  border-radius: 30px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  display: flex;
+  margin-top: 100px;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  
+
+  
+  
+}
+.div2 h4{
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  padding: 40px;
+  top: 100px;
+  font-size: 18px;
+  line-height: 1.5;
+  position: absolute;
+  border-right: 40px;
+  
+  
+}
+
+  .img {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 300px;
+    right: 250px;
+    border-radius: 10px;
+    object-fit: cover; /* Ensures the image is properly cropped */
+    border-radius: 180px;
+  }
+.project-slide{
+    
+    width:100%;
+    height: 940px;
+    margin-bottom: 0px;
+    margin-top: 940px;
+    display:flex;
+    flex-direction: column;
+   
+background: linear-gradient(90deg, rgb(183, 247, 255) 23%, rgba(67,203,255,1) 73%);
+    
+    
+    
+  
+    flex-wrap: wrap;
+    gap: 10px;
+    
+    
+    
+}
+  .internship-slide{
+    width: 100%;
+    height: 940px;
+    position: absolute;
+  
+    
+    margin-top: 1870px;
+    margin-left:0%;
+    display:flex;
+    flex-direction: row;
+    background: rgb(143,215,172);
+background: linear-gradient(90deg, rgb(99, 255, 161) 23%, rgba(67,203,255,1) 73%);
+          
+    
+    
+  
+    flex-wrap: wrap;
+
+  }
+  .contact{
+    width: 100%;
+    height: 440px;
+    position: absolute;
+  
+    background: rgb(2,0,36);
+     background: linear-gradient(90deg, rgb(213, 212, 219) 0%, rgba(189,143,215,1) 43%, rgb(125, 140, 228) 100%);
+    margin-top: 2810px;
+    margin-left:0%;
+    display:flex;
+    flex-direction: row;
+    
+    
+    
+  
+    flex-wrap: wrap;
+
+  }
+  .intern-slider1{
+    width: 500px;
+    height: 500px;
+    background-color: aliceblue;
+    margin-top: 150px;
+    margin-left: 60px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 150px;
+    
+    
+
+    
+    
+  }
+  .intern-slider2{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 150px;
+    margin-left: 100px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 400px;
+  
+    
+  }
+  
+    
+    
+  
+   
+  
+  .slider1{
+    width: 500px;
+    height: 500px;
+    background-color: aliceblue;
+    margin-top: 150px;
+    margin-left: 60px;
+    text-align: center;
+    justify-content: center;
+    
+
+    
+    
+  }
+  .slider2{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 150px;
+    margin-left: 100px;
+    text-align: center;
+    justify-content: center;
+  
+    
+  }
+  .slider3{
+    width: 500px;
+    height: 500px;
+    background-color: aliceblue;
+    margin-top: 150px;
+    margin-left: 100px;
+    text-align: center;
+    justify-content: center;
+  
+    
+  } 
+  .insta-icon{
+    margin-top: 200px;
+    margin-left: 650px;
+    width: 40px;
+    height: 40px;
+  }
+  .whatsapp-icon{
+    margin-top: 200px;
+    margin-left: 70px;
+    width: 40px;
+    height: 40px;
+  }
+  .linkedin-icon{
+    margin-top: 200px;
+    margin-left: 70px;
+    width: 40px;
+    height: 40px;
+
+  }
+  .github-icon{
+    margin-top: 200px;
+    margin-left: 70px;
+    width: 40px;
+    height: 40px;
+
+  }
+ 
+@media screen and (max-width: 600px) {
+    .div1 {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      margin: 0;
+    }
+  
+    .nav {
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      margin-left: 0;
+      margin-right: 90px;
+    }
+    .nav a {
+      flex-direction: row;
+      align-items: center;
+      text-align: center;
+
+
+    }
+  
+    .div2 {
+      width: 70%;
+      margin: 0px;
+      padding: 0px;
+      
+      flex-direction: row;
+      align-items: center;
+      text-align: center;
+      margin-top: 400px;
+    }
+  
+    .img {
+      width: 300px;
+      
+      flex-direction: row;
+      align-items: center;
+      text-align: center;
+      left: 150px;
+      
+      
+    } 
+    .slider1{
+      margin-left: 50px;
+    }  
+    .slider2{
+      margin-left: 50px;
+    } 
+    .slider3{
+      margin-left: 50px;
+    } 
+    .project-slide{
+      height: fit-content;
+      margin-top: 1100px;
+
+    }  
+    .internship-slide{
+      height: fit-content;
+      margin-top: 3000px;
+    }
+    .intern-slider1{
+      margin-left: 50px;
+      width: 500px;
+    }
+    .intern-slider2{
+      margin-left: 50px;
+      width: 500px;
+    }
+    .contact{
+      margin-top: 4300px;
+      height: 500px;
+    }
+}
